@@ -1,0 +1,108 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #fda726;
+    margin-left: 35%;
+    margin-top: 4%;
+}
+.fundo {
+    background-image: url("https://images4.alphacoders.com/206/thumb-1920-206954.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*titulo e subtitulo da page*/
+.titulo {
+    color: #FF9B00;
+    margin-left: 13%;
+    font-size: 20px;
+} 
+
+.subtitulo {
+    margin-left: 10%;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #ffffff;
+} 
+
+fieldset {
+    border: 0;
+}
+
+/* Elementos da caixa de campo*/
+input, select, textarea, button {
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #FF9B00;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 10px;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 2px;
+    color: #ffffff;
+    display: block;
+}
+
+/* Elementos de classe "campo" ou "grupo" da tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 15px;
+}
+
+/* Elementos de classe "campo" (borda do campo de preenchimento)>*/
+.campo input[type="text"], .campo input[type="email"],.campo input[type="tel"], .campo input[type="number"], .campo select, .campo textarea {
+    padding: 3px;
+    border: 1px solid #FF9B00;
+    display: block; 
+}
+
+/* Elementos de classe "campo" da tag <select> e <option>*/
+.campo select option {
+    padding-right: 2px;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea>"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #ffffff;
+}
+
+/* Elemento da classe "botao" */
+.botao {
+    font-size: 20px;
+    background: #FF9B00;
+    border: 0;
+    color: #ffffff;
+    padding: 5px 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-left: 15%;    
+}
+
+/* Elemento da classe "botao" com o "hover" */
+.botao:hover {
+    background: #fdae37;  
+}
+/* Elementos de classe botão da tag <select> */
+.botao, select{
+    cursor: pointer;
+}
